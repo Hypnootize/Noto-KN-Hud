@@ -8,7 +8,7 @@
 		"ypos"			"28"
 		"zpos"			"-1"
 		"wide"			"10"
-		"tall"	 		"0x"
+		"tall"	 		"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -150,10 +150,10 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-5"
-		"wide"			"300"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"	
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"0"	
 
 		"MoveableBG"
 		{

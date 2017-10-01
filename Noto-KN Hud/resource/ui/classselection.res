@@ -107,6 +107,7 @@
 		"bgcolor_override"		"0 0 0 0"
 		"textinsetx"	"3"
 	}
+	
 	"Offense2"
 	{
 		"ControlName"	"CExLabel"
@@ -128,6 +129,7 @@
 		"bgcolor_override"		"0 0 0 0"
 		"textinsetx"	"3"
 	}
+	
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
@@ -166,8 +168,9 @@
 		"keyboardinputenabled"	"0"
 
 	}
+	
 	"soldier"
-		{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
 		"xpos"				"5"
@@ -204,9 +207,10 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 
-		}
+	}
+	
 	"pyro"
-		{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
 		"xpos"				"5"
@@ -243,7 +247,7 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 
-		}
+	}
 	
 	"Defense"
 	{
@@ -267,8 +271,9 @@
 		"fgcolor"		"White"
 		"fgcolor_lodef"	"White"
 	}
+	
 	"demoman"
-		{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
 		"xpos"				"5"
@@ -304,10 +309,10 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		}
+	}
 		
 	"heavyweapons"
-		{
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"heavyweapons"
 		"xpos"				"5"
@@ -343,7 +348,7 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		}
+	}
 		
 	"engineer"
 	{
@@ -406,8 +411,9 @@
 		"fgcolor"		"TanDark"
 		"fgcolor_lodef"	"TanLight"
 	}
+	
 	"medic"
-			{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
 		"xpos"				"5"
@@ -443,9 +449,10 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		}
+	}
+	
 	"sniper"
-		{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
 		"xpos"				"5"
@@ -481,9 +488,10 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		}
+	}
+	
 	"spy"
-		{
+	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
 		"xpos"				"5"
@@ -519,7 +527,7 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		}
+	}
 
 	"CancelButton" [$WIN32] 
 	{
@@ -968,7 +976,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"84"
+		"xpos"			"120"
 		"ypos"			"139"
 		"zpos"			"5"
 		"wide"			"100"
@@ -988,7 +996,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"102"
+		"xpos"			"120"
 		"ypos"			"159"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1008,7 +1016,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"70"
+		"xpos"			"120"
 		"ypos"			"179"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1028,7 +1036,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"146"
+		"xpos"			"120"
 		"ypos"			"199"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1048,7 +1056,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"94"
+		"xpos"			"120"
 		"ypos"			"219"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1068,7 +1076,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"127"
+		"xpos"			"120"
 		"ypos"			"239"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1088,7 +1096,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"90"
+		"xpos"			"120"
 		"ypos"			"259"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1108,7 +1116,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"96"
+		"xpos"			"120"
 		"ypos"			"279"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1128,7 +1136,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"60"
+		"xpos"			"120"
 		"ypos"			"299"
 		"zpos"			"5"
 		"wide"			"100"
