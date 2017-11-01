@@ -112,11 +112,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"10"
-		"tabxdelta"		"3"
-		"tabxfittotext"	"1"
-		"tabheight"		"34"
+		"tabxindent"	"80"
+		"tabxdelta"		"10"
+		"tabwidth"		"240"
+		"tabheight"		"23"
 		"transition_time" "0"
+		"yoffset" 		"8"
 		
 		"HeaderLine"
 		{
@@ -128,16 +129,16 @@
 			"wide"			"f0"
 			"tall"			"10"
 			"visible"		"0"
-			"enabled"		"0"
+			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
 		
 		"tabskv"
 		{
-			"textinsetx"		"6"
-			"textAlignment"		"center"
-			"font"				"NotoBold20"
+			"textinsetx"		"40"
+			"textinsety"		"4"
+			"font"				"NotoBold28"
 			"defaultBgColor_override"	"43 43 43 255"
 			"selectedcolor"		"NotoWhite"
 			"unselectedcolor"	"95 95 95 255"	
