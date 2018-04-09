@@ -318,6 +318,62 @@
 		"show_progress"	"0"
 	}
 	
+	"CycleRankTypeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CycleRankTypeButton"
+		"xpos"			"175"
+		"ypos"			"r29"
+		"zpos"			"15"
+		"wide"			"22"
+		"tall"			"22"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"'"
+		"font"			"ModPic20"
+		"textinsety"	"-7"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"open_rank_type_menu"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"NotoWhite"
+		"armedBgColor_override"		"NotoGreenSolid"
+		"depressedBgColor_override"	"NotoWhite"
+		"defaultFgColor_override"	"NotoDark"
+		"armedFgColor_override"		"NotoWhite"
+		"depressedFgColor_override"	"NotoDark"
+		"border_default"			"FuckinBorderDude"
+		"border_armed"				"FuckinBorderDude"
+		
+		"image_drawcolor"	"TanDark"
+		"image_armedcolor"	"TanLight"				
+	}
+	
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"c-285"
+		"ypos"			"99"
+		"zpos"			"-1"
+		"wide"			"8"
+		"tall"			"0"	//8
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"	
+		"alpha"			"75"
+	}
+	
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -327,14 +383,21 @@
 		"zpos"			"1"
 		"wide"			"340"
 		"tall"			"100"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"	"350"
 
 		"show_model"	"0"
+		"show_type"		"1"
+	}
+
+	"RankBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBorder"
+		"xpos"			"9999"
 	}
 	
 	"FriendsContainer"
