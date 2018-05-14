@@ -26,9 +26,7 @@
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/tournament_panel_brown"
 		"teambg_2"		"../hud/tournament_panel_red"
-		"teambg_2_lodef"	"../hud/tournament_panel_red"
 		"teambg_3"		"../hud/tournament_panel_blu"
-		"teambg_3_lodef"	"../hud/tournament_panel_blu"
 		
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
@@ -38,8 +36,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}
 	"TimePanelProgressBar"
@@ -69,8 +66,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -100,8 +96,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}			
 	"OvertimeBG"
@@ -131,8 +126,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}			
 	"SuddenDeathBG"
@@ -162,8 +156,7 @@
 		
 		if_match
 		{
-			"wide"			"0"
-			"visible"		"0"
+			"xpos"	"9999"
 		}
 	}	
 	"SetupBG"
@@ -171,5 +164,43 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"999999"	[$WIN32]	
+	}
+	
+	"ServerTimeLimitLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ServerTimeLimitLabel"
+		"xpos"			"32"
+		"ypos"			"12"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"%servertimeleft%"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
+		"font"			"NotoBold12"
+		"fgcolor"		"255 255 255 255"
 	}	
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ServerTimeLimitLabelBG"
+		"xpos"			"9999"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"38"
+		"tall"			"13"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"0 0 0 100"
+		
+		if_match
+		{
+			"xpos"	"9999"
+		}
+	}
 }

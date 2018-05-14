@@ -30,6 +30,7 @@
 		if_match
 		{
 			"xpos"				"57"
+			"ypos"				"4"
 		}
 		
 		"TimePanelValue"
@@ -51,13 +52,12 @@
 			if_match
 			{
 				"font"		"Notobold12"
-				"ypos"			"4"
 			}
 		}	
 	}
 	"BluTimerBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"BluTimerBG"
 		"xpos"			"20"
 		"ypos"			"0"
@@ -102,28 +102,28 @@
 		if_match
 		{
 			"xpos"			"94"
+			"ypos"			"4"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"	"TimePanelValue"
-			"font"		"Notobold16"
-			"fgcolor"	"255 255 255 255"
-			"xpos"		"0"
-			"ypos"		"0"
-			"zpos"		"3"
-			"wide"		"40"
-			"tall"		"20"
-			"visible"	"1"
-			"enabled"	"1"
+			"fieldName"		"TimePanelValue"
+			"font"			"Notobold16"
+			"fgcolor"		"255 255 255 255"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"40"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"textAlignment"	"center"
-			"labelText"	"0:00"
+			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"		"Notobold12"
-				"ypos"			"4"
+				"font"	"Notobold12"
 			}
 		}	
 	}
